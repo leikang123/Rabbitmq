@@ -3,7 +3,7 @@ package org.study.mq.myMq;
 import java.util.concurrent.ArrayBlockingQueue;
 
 /**
- * 消息处理中心
+ * 消息处理中心,  一般这个都是代理，存储消息，队列匹配功能
  */
 public class Broker {
     // 队列存储消息的最大数量
